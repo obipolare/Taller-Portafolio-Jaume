@@ -1,0 +1,26 @@
+.main-nav {
+  display: none;
+}
+.main-menu {
+  display: flex;
+  gap: 40px;
+}
+.main-menu__item {
+  list-style: none;
+}
+.main-menu__link {
+  text-decoration: none;
+  font: var(--button);
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.main-menu__link--active {
+  color: var(--purple);
+}
+
+@media (min-width: 768px) {
+  .main-nav {
+    display: block;
+  }
+}

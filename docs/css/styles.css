@@ -1,0 +1,51 @@
+@import "./button.css";
+@import "./button-icon.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./comment.css";
+@import "./testimony.css";
+@import "./social.css";
+@import "./footer.css";
+@import "./form.css";
+@import "./title.css";
+@import "./video.css";
+
+:root {
+  --fontBase: "Poppins", sans-serif;
+  --headline1: bold 95px / 153.71px var(--fontBase);
+  --headline2: bold 59px / 95.46px var(--fontBase);
+  --headline3: bold 48px / 77.66px var(--fontBase);
+  --headline4: bold 34px / 55.01px var(--fontBase);
+  --headline5: bold 24px / 38.83px var(--fontBase);
+
+  --body1: 16px / 25px var(--fontBase);
+  --body2: 14px / 22px var(--fontBase);
+
+  --button: bold 14px / 22px var(--fontBase);
+  --caption: 12px / 19px var(--fontBase);
+
+  --gradient-page: radial-gradient(
+      41.48% 11.48% at 2.38% 8.52%,
+      #747de9 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+  --purple: #310a90;
+  --green: #42e2b8;
+  --white: #ffffff;
+}
+html {
+  scroll-behavior: smooth;
+}
+figure {
+  margin: 0;
+}
+body {
+  background: var(--gradient-page);
+  min-block-size: 100vh;
+  font: var(--body1);
+  color: var(--purple);
+  margin: 0;
+}
