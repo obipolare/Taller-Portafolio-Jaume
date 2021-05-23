@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <img
+        src="./images/LOGO.svg"
+        width="70"
+        height="20"
+        alt="logo muy bonito"
+      />
+      <nav class="main-nav">
+        <ul class="main-menu">
+          <li class="main-menu__item">
+            <a class="main-menu__link main-menu__link--active" href="#main"
+              >Hola</a
+            >
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link" href="#project">Proyectos</a>
+          </li>
+          <li class="main-menu__item">
+            <a class="main-menu__link" href="#contact">Hablemos</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="button">Curriculum</button>
+    </header>
+    <div class="wrapper">
+      <main class="main-container">
+        <section class="hero" id="main">
+          <figure class="hero__img">
+            <img src="./images/stone.jpg" width="330" alt="" />
+          </figure>
+
+          <div class="hero__description">
+            <header>
+              <h1>
+                <span>¡Hola a todos!</span>
+                <span>Soy Obipolare</span>
+              </h1>
+            </header>
+            <p>
+              Frontend Developer que le encanta implementar diseños que inspiran
+              y atraen a las personas.
+            </p>
+            <div class="hero__social">
+              <a target="_blank" class="button-icon" href="tel:05166444">
+                <img src="./icons/icon-phone.svg" class="icon-phone" />
+              </a>
+              <a target="_blank" class="button-icon" href="tel:05166444">
+                <img src="./icons/icon-important_mail.svg" class="icon-phone" />
+              </a>
+              <a
+                target="_blank"
+                class="button-icon"
+                href="https://www.instagram.com/obipolare/"
+              >
+                <img src="./icons/icon-instagram.svg" class="icon-phone" />
+              </a>
+              <a
+                target="_blank"
+                class="button-icon"
+                href="https://twitter.com/obipolare"
+              >
+                <img
+                  src="./icons/icon-twitter_squared.svg"
+                  class="icon-phone"
+                />
+              </a>
+            </div>
+            <a href="https://idontknow.com" class="button">
+              Descargar curriculum</a
+            >
+          </div>
+        </section>
+        <section class="comment">
+          <article class="comment__article">
+            <p class="">
+              A lo largo de mi carrera como Frontend, he tenido el privilegio de
+              trabajar en proyectos retadores e increíbles
+            </p>
+            <p class="">Aquí hay algunos que me gustaría compartir.</p>
+            <img src="./icons/arrow-down.svg" alt="" />
+          </article>
+        </section>
+        <section class="testimony" id="project">
+          <figure class="testimony__img">
+            <img src="./images/myWebsite.png" />
+          </figure>
+          <div class="testimony__description">
+            <a class="title" target="_blank" href="https://leonidasesteban.com">
+              leonidasesteban.com
+            </a>
+            <p>
+              Accede a más de 120 proyectos que te ayudarán a mejorar tus
+              habilidades como desarrollador Front-End.
+            </p>
+            <a href="#" class="button button--secondary">Ver Código</a>
+            <a href="#" class="button">Ver Proyecto</a>
+          </div>
+        </section>
+
+        <section class="testimony">
+          <figure class="testimony__img">
+            <img src="./images/iPad.png" />
+          </figure>
+          <div class="testimony__description">
+            <a class="title" target="_blank" href="https://leonidasesteban.com">
+              leonidasesteban.com
+            </a>
+            <p>
+              Accede a más de 120 proyectos que te ayudarán a mejorar tus
+              habilidades como desarrollador Front-End.
+            </p>
+            <a href="#" class="button button--secondary">Ver Código</a>
+            <a href="#" class="button">Ver Proyecto</a>
+          </div>
+        </section>
+
+        <section class="testimony">
+          <figure class="testimony__img">
+            <img src="./images/Iphone X.png" />
+          </figure>
+          <div class="testimony__description">
+            <a class="title" target="_blank" href="https://leonidasesteban.com">
+              leonidasesteban.com
+            </a>
+            <p>
+              Accede a más de 120 proyectos que te ayudarán a mejorar tus
+              habilidades como desarrollador Front-End.
+            </p>
+            <a href="#" class="button button--secondary">Ver Código</a>
+            <a href="#" class="button">Ver Proyecto</a>
+          </div>
+        </section>
+        <section class="video-container">
+          <iframe
+            class="video"
+            width="100%"
+            src="https://www.youtube.com/embed/pN_M5NLGIHg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+      </main>
+
+      <form action="" class="form">
+        <h2 class="title">HABLEMOS</h2>
+        <p>
+          Si está interesado en trabajar conmigo en su próximo proyecto, no dude
+          en ponerse en contacto conmigo.
+        </p>
+        <label for="form-name">
+          <span> Nombre Completo </span>
+
+          <input name="name" type="text" placeholder="Juan" id="form-name" />
+        </label>
+
+        <label for="form-email">
+          <span>Correo Electronico</span>
+          <input
+            required
+            name="email"
+            type="email"
+            placeholder="Juan"
+            id="form-name"
+          />
+        </label>
+
+        <label for="form-message">
+          <span> Mensaje </span>
+          <textarea
+            required
+            name=""
+            id="form-message"
+            cols="30"
+            rows="10"
+            placeholder="mensaje"
+          ></textarea>
+        </label>
+
+        <button class="button" type="submit">Enviar Mensaje</button>
+      </form>
+
+      <footer class="footer" id="contact">
+        <figure class="footer__logo">
+          <img
+            src="./images/LOGO.svg"
+            width="70"
+            height="20"
+            alt="logo muy bonito"
+          />
+        </figure>
+        <div class="social">
+          <a class="button-icon" href="tel:05166444">
+            <img src="./icons/icon-phone.svg" class="icon-phone" />
+          </a>
+          <a class="button-icon" href="tel:05166444">
+            <img src="./icons/icon-important_mail.svg" class="icon-phone" />
+          </a>
+          <a class="button-icon" href="tel:05166444">
+            <img
+              src="./icons/icon-instagram.svg"
+              class="https://www.instagram.com/obipolare/"
+            />
+          </a>
+          <a class="button-icon" href="tel:05166444">
+            <img
+              src="./icons/icon-twitter_squared.svg"
+              class="https://twitter.com/obipolare"
+            />
+          </a>
+        </div>
+
+        <article class="footer__copyright">
+          <p>Hecho con ❤ por Leo.</p>
+          <p>Copyright 2021 - Todos los derechos reservados.</p>
+        </article>
+      </footer>
+    </div>
+  </body>
+</html>
